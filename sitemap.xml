@@ -2,27 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://1chooo.github.io/chatter-judge/</loc>
-         <lastmod>2024-01-14</lastmod>
+         <lastmod>2024-01-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://1chooo.github.io/chatter-judge/LICENSE/</loc>
-         <lastmod>2024-01-14</lastmod>
+         <lastmod>2024-01-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://1chooo.github.io/chatter-judge/developers_guids/</loc>
-         <lastmod>2024-01-14</lastmod>
+         <loc>https://1chooo.github.io/chatter-judge/developers_guide/</loc>
+         <lastmod>2024-01-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://1chooo.github.io/chatter-judge/developers_guids/project_architecture/</loc>
-         <lastmod>2024-01-14</lastmod>
+         <loc>https://1chooo.github.io/chatter-judge/developers_guide/project_architecture/</loc>
+         <lastmod>2024-01-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://1chooo.github.io/chatter-judge/getting_started/</loc>
-         <lastmod>2024-01-14</lastmod>
+         <lastmod>2024-01-15</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

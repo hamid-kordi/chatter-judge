@@ -12,11 +12,13 @@
         <meta name="author" content="1chooo(Hugo ChunHo Lin)">
       
       
-        <link rel="canonical" href="https://1chooo.github.io/chatter-judge/LICENSE/">
+        <link rel="canonical" href="https://1chooo.github.io/chatter-judge/developers_guide/">
       
       
-        <link rel="prev" href="../developers_guide/">
+        <link rel="prev" href="../getting_started/">
       
+      
+        <link rel="next" href="../LICENSE/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -24,7 +26,7 @@
     
     
       
-        <title>LICENSE - Chatter Judge</title>
+        <title>Developer's Guide - Chatter Judge</title>
       
     
     
@@ -78,7 +80,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mit-license" class="md-skip">
+        <a href="#welcome-contributors" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              LICENSE
+              Developer's Guide
             
           </span>
         </div>
@@ -251,9 +253,11 @@
         
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="../developers_guide/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
         
   
     
@@ -268,11 +272,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../LICENSE/" class="md-tabs__link">
         
   
     
@@ -390,26 +392,6 @@
       
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../developers_guide/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Developer's Guide
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
   
@@ -426,7 +408,7 @@
           
   
   <span class="md-ellipsis">
-    LICENSE
+    Developer's Guide
   </span>
   
 
@@ -437,7 +419,7 @@
         
   
   <span class="md-ellipsis">
-    LICENSE
+    Developer's Guide
   </span>
   
 
@@ -459,20 +441,137 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#contact-info" class="md-nav__link">
+  <a href="#collaboration-guidelines" class="md-nav__link">
     <span class="md-ellipsis">
-      CONTACT INFO.
+      Collaboration Guidelines
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Collaboration Guidelines">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#forking-this-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Forking this Repository:
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#license" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#cloning-the-repository-to-your-workspace" class="md-nav__link">
     <span class="md-ellipsis">
-      License
+      Cloning the Repository to Your Workspace:
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-upstream-remote" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting Upstream Remote:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pull-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pull Requests:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#issue-reporting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Issue Reporting:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#important-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Important Notes:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Important Notes:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#make-sure-to-synchronize-and-update-your-repository-before-initiating-a-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make sure to synchronize and update your repository before initiating a pull request:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#developing-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Developing Requirements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Developing Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#build-venv-for-macos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Build venv for MacOS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-venv-for-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Build venv for Windows
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-web-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run web app
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Build Docs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -480,6 +579,26 @@
   
 </nav>
       
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../LICENSE/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    LICENSE
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -531,20 +650,137 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#contact-info" class="md-nav__link">
+  <a href="#collaboration-guidelines" class="md-nav__link">
     <span class="md-ellipsis">
-      CONTACT INFO.
+      Collaboration Guidelines
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Collaboration Guidelines">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#forking-this-repository" class="md-nav__link">
+    <span class="md-ellipsis">
+      Forking this Repository:
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#license" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#cloning-the-repository-to-your-workspace" class="md-nav__link">
     <span class="md-ellipsis">
-      License
+      Cloning the Repository to Your Workspace:
     </span>
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setting-upstream-remote" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setting Upstream Remote:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pull-requests" class="md-nav__link">
+    <span class="md-ellipsis">
+      Pull Requests:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#issue-reporting" class="md-nav__link">
+    <span class="md-ellipsis">
+      Issue Reporting:
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#important-notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Important Notes:
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Important Notes:">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#make-sure-to-synchronize-and-update-your-repository-before-initiating-a-pull-request" class="md-nav__link">
+    <span class="md-ellipsis">
+      Make sure to synchronize and update your repository before initiating a pull request:
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#developing-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Developing Requirements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Developing Requirements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#build-venv-for-macos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Build venv for MacOS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-venv-for-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Build venv for Windows
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#run-web-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      Run web app
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-docs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Build Docs
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -566,58 +802,81 @@
   
 
 
-<h1 id="mit-license">MIT License<a class="headerlink" href="#mit-license" title="Permanent link">&para;</a></h1>
-<p>Copyright © 2023-2024 Hugo ChunHo Lin</p>
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:</p>
-<p>The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.</p>
-<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.</p>
-<h2 id="contact-info">CONTACT INFO.<a class="headerlink" href="#contact-info" title="Permanent link">&para;</a></h2>
-<blockquote>
-<p>AWS Educate Cloud Ambassador, Technical Support 
-<br>
-<strong>Hugo ChunHo Lin</strong></p>
-<p><aside>
-  📩 E-mail: <a href="mailto:hugo970217@gmail.com">hugo970217@gmail.com</a>
-<br>
-  🧳 Linkedin: <a href="https://www.linkedin.com/in/1chooo/">Hugo ChunHo Lin</a>
-<br>
-  👨🏻‍💻 GitHub: <a href="https://github.com/1chooo">1chooo</a></p>
-</aside>
-</blockquote>
-<h2 id="license">License<a class="headerlink" href="#license" title="Permanent link">&para;</a></h2>
-<p>Released under <a href="https://1chooo.github.io/my-uni-courses/LICENSE">MIT</a> by <a href="https://github.com/1chooo">Hugo ChunHo Lin</a>.</p>
-<p>This software can be modified and reused without restriction.
-The original license must be included with any copies of this software.
-If a significant portion of the source code is used, please provide a link back to this repository.</p>
-<div align="center">
-    <p>
-        <a href="https://github.com/1chooo" target="_blank"><b>👨🏻 GitHub</b></a> |
-        <a href="https://www.linkedin.com/in/1chooo/" target="_blank"><b>👨🏻‍💻 Linkedin</b></a> |
-        <a href="https://1chooo-github-io-1chooo.vercel.app/" target="_blank"><b>👨🏻‍💻 Portfolio</b></a> |
-        <a href="https://1chooo.github.io/1chooo-blog/" target="_blank"><b>📓 Blog</b></a> |
-        <a href="https://1chooo.com/cv.pdf" target="_blank"><b>🧳 Resume</b></a> |
-        <a href="https://medium.com/@1chooo" target="_blank"><b>📠 Medium</b></a> |
-        <a href="https://www.youtube.com/channel/UCpBU1rXOfdTtxX939f_P_dA" target="_blank"><b>🎥 YouTube</b></a>
-    </p>
-    <div>
-        <b>‘’𝘿𝙧𝙚𝙖𝙢𝙨 𝙘𝙤𝙢𝙚 𝙩𝙧𝙪𝙚, 𝙬𝙝𝙚𝙣 🫵🏻 𝙙𝙤𝙣’𝙩 𝙨𝙡𝙚𝙚𝙥…’’</b>
-    </div>
-    <div>
-        <b>©2023-2024  Hugo H. Lin</b>
-    </div>
-</div>
+<h1 id="welcome-contributors">Welcome Contributors<a class="headerlink" href="#welcome-contributors" title="Permanent link">&para;</a></h1>
+<h2 id="collaboration-guidelines">Collaboration Guidelines<a class="headerlink" href="#collaboration-guidelines" title="Permanent link">&para;</a></h2>
+<h3 id="forking-this-repository">Forking this Repository:<a class="headerlink" href="#forking-this-repository" title="Permanent link">&para;</a></h3>
+<p>Fork the <a href="https://github.com/1chooo/chatter-judge"><code>chatter-judge</code></a> repository into your own workspace.</p>
+<h3 id="cloning-the-repository-to-your-workspace">Cloning the Repository to Your Workspace:<a class="headerlink" href="#cloning-the-repository-to-your-workspace" title="Permanent link">&para;</a></h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span></pre></div></td><td class="code"><div><pre><span></span><code>$<span class="w"> </span>git<span class="w"> </span>clone<span class="w"> </span>git@github.com:&lt;your_workspace_name&gt;/chatter-judge.git
+</code></pre></div></td></tr></table></div>
+<h3 id="setting-upstream-remote">Setting Upstream Remote:<a class="headerlink" href="#setting-upstream-remote" title="Permanent link">&para;</a></h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span>
+<span class="normal">7</span></pre></div></td><td class="code"><div><pre><span></span><code>$<span class="w"> </span>git<span class="w"> </span>remote<span class="w"> </span>add<span class="w"> </span>upstream<span class="w"> </span>git@github.com:1chooo/chatter-judge.git
+
+$<span class="w"> </span>git<span class="w"> </span>remote<span class="w"> </span>-v
+origin<span class="w">  </span>git@github.com:&lt;your_user_name&gt;/chatter-judge.git<span class="w"> </span><span class="o">(</span>fetch<span class="o">)</span>
+origin<span class="w">  </span>git@github.com:&lt;your_user_name&gt;/chatter-judge.git<span class="w"> </span><span class="o">(</span>push<span class="o">)</span>
+upstream<span class="w">        </span>git@github.com:1chooo/chatter-judge.git<span class="w"> </span><span class="o">(</span>fetch<span class="o">)</span>
+upstream<span class="w">        </span>git@github.com:1chooo/chatter-judge.git<span class="w"> </span><span class="o">(</span>push<span class="o">)</span>
+</code></pre></div></td></tr></table></div>
+<h3 id="pull-requests">Pull Requests:<a class="headerlink" href="#pull-requests" title="Permanent link">&para;</a></h3>
+<p>If you have any valuable ideas to contribute, please create a pull request and provide details about the outstanding work you've done.</p>
+<h3 id="issue-reporting">Issue Reporting:<a class="headerlink" href="#issue-reporting" title="Permanent link">&para;</a></h3>
+<p>If you encounter any problems while contributing to this project, please report the issues in the <a href="https://github.com/1chooo/chatter-judge/issues">chatter-judge/issues</a> section.</p>
+<h3 id="important-notes">Important Notes:<a class="headerlink" href="#important-notes" title="Permanent link">&para;</a></h3>
+<h4 id="make-sure-to-synchronize-and-update-your-repository-before-initiating-a-pull-request">Make sure to synchronize and update your repository before initiating a pull request:<a class="headerlink" href="#make-sure-to-synchronize-and-update-your-repository-before-initiating-a-pull-request" title="Permanent link">&para;</a></h4>
+<ol>
+<li>Run <code>git stash save</code> to temporarily stash your local changes.</li>
+<li>Run <code>git fetch upstream</code> to sync the source project with your local copy.</li>
+<li>Run <code>git checkout main</code> to switch to the main branch.</li>
+<li>Run <code>git merge upstream/main</code> to merge the updated remote version into your local copy. If there are no conflicts, the update process is complete.</li>
+<li>Run <code>git stash pop</code> to apply your temporarily stashed changes back to your working directory. Resolve any conflicts if necessary.</li>
+</ol>
+<h2 id="developing-requirements">Developing Requirements<a class="headerlink" href="#developing-requirements" title="Permanent link">&para;</a></h2>
+<p>Python version <code>python3.10</code> or later.</p>
+<h3 id="build-venv-for-macos">Build <code>venv</code> for <strong>MacOS</strong><a class="headerlink" href="#build-venv-for-macos" title="Permanent link">&para;</a></h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span></pre></div></td><td class="code"><div><pre><span></span><code>$<span class="w"> </span>python3.10<span class="w"> </span>-m<span class="w"> </span>venv<span class="w"> </span>venv
+$<span class="w"> </span><span class="nb">source</span><span class="w"> </span>venv/bin/activate
+$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+$<span class="w"> </span>deactivate
+$<span class="w"> </span>rm<span class="w"> </span>-rf<span class="w"> </span>venv<span class="w">     </span><span class="c1"># remove the venv</span>
+</code></pre></div></td></tr></table></div>
+<h3 id="build-venv-for-windows">Build <code>venv</code> for <strong>Windows</strong><a class="headerlink" href="#build-venv-for-windows" title="Permanent link">&para;</a></h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span>
+<span class="normal">5</span>
+<span class="normal">6</span></pre></div></td><td class="code"><div><pre><span></span><code>$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>virtualenv
+$<span class="w"> </span>virtualenv<span class="w"> </span>venv
+$<span class="w"> </span>venv<span class="se">\S</span>cripts<span class="se">\a</span>ctivate
+$<span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+$<span class="w"> </span>deactivate
+$<span class="w"> </span>rmdir<span class="w"> </span>/s<span class="w"> </span>venv<span class="w">     </span><span class="c1"># remove the venv</span>
+</code></pre></div></td></tr></table></div>
+<h3 id="run-web-app">Run web app<a class="headerlink" href="#run-web-app" title="Permanent link">&para;</a></h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span>
+<span class="normal">3</span>
+<span class="normal">4</span></pre></div></td><td class="code"><div><pre><span></span><code>$<span class="w"> </span>./build.sh
+
+<span class="c1"># or</span>
+$<span class="w"> </span>uvicorn<span class="w"> </span>run:main<span class="w"> </span>--host<span class="w"> </span><span class="m">127</span>.0.0.1<span class="w"> </span>--port<span class="w"> </span><span class="m">5002</span>
+</code></pre></div></td></tr></table></div>
+<h3 id="build-docs">Build Docs<a class="headerlink" href="#build-docs" title="Permanent link">&para;</a></h3>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
+<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code>$<span class="w"> </span>mkdocs<span class="w"> </span>server
+$<span class="w"> </span>mkdocs<span class="w"> </span>build
+</code></pre></div></td></tr></table></div>
 
 
 
@@ -668,7 +927,7 @@ If a significant portion of the source code is used, please provide a link back 
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../developers_guide/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Developer&#39;s Guide">
+          <a href="../getting_started/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Getting Started">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -678,11 +937,27 @@ If a significant portion of the source code is used, please provide a link back 
                 Previous
               </span>
               <div class="md-ellipsis">
-                Developer's Guide
+                Getting Started
               </div>
             </div>
           </a>
         
+        
+          
+          <a href="../LICENSE/" class="md-footer__link md-footer__link--next" aria-label="Next: LICENSE">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                LICENSE
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
         
       </nav>
     
