@@ -2,6 +2,8 @@
 
 ## Test Google Gemini Pro
 
+`GOOGLE_GEMINI_API_KEY`: Through Google Gemini API Keys to get.
+
 ```shell
 curl \
   -H 'Content-Type: application/json' \

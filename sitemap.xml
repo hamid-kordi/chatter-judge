@@ -2,47 +2,82 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://1chooo.github.io/chatter-judge/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://1chooo.github.io/chatter-judge/LICENSE/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://1chooo.github.io/chatter-judge/developers_guide/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://1chooo.github.io/chatter-judge/developers_guide/project_architecture/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <loc>https://1chooo.github.io/chatter-judge/developers_guide/02_unit_test/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://1chooo.github.io/chatter-judge/developers_guide/03_ci_cd_actions/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://1chooo.github.io/chatter-judge/developers_guide/01_chatter_structure/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://1chooo.github.io/chatter-judge/developers_guide/01_chatter_structure/01_app/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://1chooo.github.io/chatter-judge/developers_guide/01_chatter_structure/02_chatbot/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://1chooo.github.io/chatter-judge/developers_guide/01_chatter_structure/03_gui/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://1chooo.github.io/chatter-judge/developers_guide/01_chatter_structure/04_judge/</loc>
+         <lastmod>2024-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://1chooo.github.io/chatter-judge/developers_guide/01_chatter_structure/05_utils/</loc>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://1chooo.github.io/chatter-judge/getting_started/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://1chooo.github.io/chatter-judge/wiki/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://1chooo.github.io/chatter-judge/wiki/01_chatter_structure/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://1chooo.github.io/chatter-judge/wiki/02_unit_test/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://1chooo.github.io/chatter-judge/wiki/03_ci_cd_actions/</loc>
-         <lastmod>2024-01-16</lastmod>
+         <lastmod>2024-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
