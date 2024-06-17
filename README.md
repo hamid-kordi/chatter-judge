@@ -39,40 +39,12 @@ If you encounter any problems while contributing to this project, please report 
 > 4. Run `git merge upstream/main` to merge the updated remote version into your local copy. If there are no conflicts, the update process is complete.
 > 5. Run `git stash pop` to apply your temporarily stashed changes back to your working directory. Resolve any conflicts if necessary.
 
-## Developing Requirements
-
-Python version `python3.10` or later.
-
-### Build `venv` for **MacOS**
+## Build and run with docker
+# 重要
+# please download token.json and put in at web\token.json
 ```shell
-$ python3.10 -m venv venv
-$ source venv/bin/activate
-$ pip install -r requirements.txt
-$ deactivate
-$ rm -rf venv     # remove the venv
-```
-
-### Build `venv` for **Windows**
-```shell
-$ pip install virtualenv
-$ virtualenv venv
-$ venv\Scripts\activate
-$ pip install -r requirements.txt
-$ deactivate
-$ rmdir /s venv     # remove the venv
-```
-
-### Run web app
-```shell
-$ ./build.sh
-
-# or
-$ uvicorn run:main --host 127.0.0.1 --port 5002
-```
-
-### Build and run with docker
-
-```shell
+$ cp .env.example .env
+# now edit the .env file to set the GEMINI_API_KEY, then:
 # build the docker image and run the container
 $ docker-compose up -d
 # follow the logs
@@ -82,13 +54,27 @@ $ docker-compose stop
 # stop the container and discard the container
 $ docker-compose down
 ```
-
+<!-- 王子祐的註解:帳號密碼需註冊，無寫死
+wsl unexpected error 請刪除windows sys
+docker run -d -p 80:80 docker/getting-started
+如果依賴項變更請使用 c 替換 
+-->
 ### Build Docs
 ```shell
 $ mkdocs server
 $ mkdocs build
 ```
 
+### Format and Lint
+
+```shell
+# format the code
+$ ruff format .
+# check the code
+$ ruff check .
+# apply the autofix
+$ ruff check --fix .
+```
 
 ## License
 Released under [MIT](./LICENSE) by [Hugo ChunHo Lin](https://github.com/1chooo).
@@ -97,3 +83,7 @@ This software can be modified and reused without restriction.
 The original license must be included with any copies of this software.
 If a significant portion of the source code is used, please provide a link back to this repository.
 
+## gemini api emthod 
+```shell
+# api key for gemini 1.0 pro(chatbot)
+# token.json for code advice from finetune model
