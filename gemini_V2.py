@@ -1,6 +1,6 @@
 import time
 
-# hihihihihihhi
+# import google AI python SDK for the Gemini API
 import google.generativeai as genai
 
 genai.configure(api_key="AIzaSyCXCXxAcCQKxv-VAm7E0UnTNINXf3svPew")
