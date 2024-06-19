@@ -1,9 +1,15 @@
 import time
+from dotenv import load_dotenv
+import os
 
 # import google AI python SDK for the Gemini API
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyCXCXxAcCQKxv-VAm7E0UnTNINXf3svPew")
+# get key from .env 
+load_dotenv()
+api_key = os.getenv("GEMINI_API_KEY")
+
+genai.configure(api_key=api_key)
 
 # Set up the model
 generation_config = {
