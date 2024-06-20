@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 import httpx
 
-# import google AI python SDK for the Gemini API
+# python SDK for the Gemini 
 import google.generativeai as genai
 
 # get key from .env
