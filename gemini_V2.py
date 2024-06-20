@@ -3,19 +3,20 @@ from dotenv import load_dotenv
 import os
 import httpx
 
-# python SDK for the Gemini 
+# python SDK for the Gemini
 import google.generativeai as genai
 
 # get key from .env
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
+api_url_new_token = os.getenv("API_URL_NEW_TOKEN")
 
 genai.configure(api_key=api_key)
 
 
 # get renew token
 def get_renew_token():
-    response = httpx.post("https://url/new_token", data={"parameter_name": api_key})
+    response = httpx.post(api_url_new_token, data={"parameter_name": api_key})
     if response.status_code == 200:
         new_token = response.json().get("token")
         with open(".env", "w") as f:
