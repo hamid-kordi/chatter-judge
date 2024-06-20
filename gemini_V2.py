@@ -1,15 +1,30 @@
 import time
 from dotenv import load_dotenv
 import os
+import httpx
 
 # import google AI python SDK for the Gemini API
 import google.generativeai as genai
 
-# get key from .env 
+# get key from .env
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 
 genai.configure(api_key=api_key)
+
+
+# get renew token
+def get_renew_token():
+    response = httpx.post("https://url/new_token", data={"parameter_name": api_key})
+    if response.status_code == 200:
+        new_token = response.json().get("token")
+        with open(".env", "w") as f:
+            f.write(f"GEMINI_API_KEY={new_token}")
+        load_dotenv()
+        return new_token
+    else:
+        raise Exception("can not get new token")
+
 
 # Set up the model
 generation_config = {
